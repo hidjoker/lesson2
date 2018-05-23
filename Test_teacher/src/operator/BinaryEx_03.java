@@ -18,7 +18,7 @@ public class BinaryEx_03 {
 //		num2 -= num1;
 //		num2 *= num1;
 //		num2 /= num1;
-//		num2 %= num1;
+		num2 %= num1;
 
 		System.out.println("-----¿¬»ê ÈÄ-----");
 		System.out.println("num1="+num1+",num2="+num2);

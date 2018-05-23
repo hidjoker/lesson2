@@ -8,12 +8,11 @@ public class Operator_Quiz_02 {
 		System.out.println(
 		  " a = " + a + ", b = " + b + ", d = " + d);
 
+		
+		// a=6, b=5, c=10, d=36
 		d = a++ + ++c - b--;
 		System.out.println(
-		  "a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
-
-		
-		
+		  "a="+a+",b="+b+",c="+c+",d="+d);
 		
 		System.out.println("------------------------------");
 		boolean res1;
@@ -23,9 +22,6 @@ public class Operator_Quiz_02 {
 		System.out.println("result1 : " + res1);
 		System.out.println(
 		  "a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
-
-		
-		
 		
 		System.out.println("------------------------------");
 		boolean res2;
@@ -37,4 +33,10 @@ public class Operator_Quiz_02 {
 		  "a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
 	}
 }
+
+
+
+
+
+
 
