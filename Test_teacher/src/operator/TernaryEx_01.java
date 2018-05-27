@@ -13,6 +13,7 @@ public class TernaryEx_01 {
 		System.out.println(
 			(num1<num2) ?"num1이작다" :"num1이 작지 않다");
 		// System.out.println("num1이 작지 않다");
+
 		
 	}
 }

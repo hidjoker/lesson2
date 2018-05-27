@@ -14,6 +14,9 @@ public class Operator_Quiz_02 {
 		System.out.println(
 		  "a="+a+",b="+b+",c="+c+",d="+d);
 		
+
+		// a=7, b=4, c=11, d=12
+		
 		System.out.println("------------------------------");
 		boolean res1;
 		a = 10;	b = 20; c = 30; d = 40;
