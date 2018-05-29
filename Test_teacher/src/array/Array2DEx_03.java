@@ -44,7 +44,7 @@ public class Array2DEx_03 {
 		
 		// 3. 평균 계산
 		for(int i=0; i<2; i++) {
-			avg[i] = sum[i] / (double)2;
+			avg[i] = sum[i] / (double)3;
 		}
 		
 		// 4. 출력
