@@ -1,4 +1,4 @@
-package controlQuiz;
+package condition;
 
 import java.util.Scanner;
 
