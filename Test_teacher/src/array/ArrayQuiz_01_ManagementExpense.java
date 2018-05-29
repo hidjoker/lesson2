@@ -5,8 +5,16 @@ import java.util.Scanner;
 public class ArrayQuiz_01_ManagementExpense {
 	
 	// 1인당 관리비
-	public static final int FEE = 13000;
+	public static final int FEE = 13000; // 상수화된 변수
+		
 	
+	// 상수 : 변하지 않는 값
+	// 1. 리터널 상수 : 123, 'A', "Apple", 444L, 3.4F, 2.1, true, ...
+	// 2. 이름있는 상수(상수화된 변수, 변수의 상수화)
+	
+	
+	
+		
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);

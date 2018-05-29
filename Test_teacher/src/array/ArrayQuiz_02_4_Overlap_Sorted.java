@@ -100,6 +100,8 @@ public class ArrayQuiz_02_4_Overlap_Sorted {
 		System.out.print("ret_arr : ");
 		for( int i=0; i<idx_ret; i++ ) {
 			System.out.print(ret_arr[i] + " ");
+
+		
 		}
 	}
 }
