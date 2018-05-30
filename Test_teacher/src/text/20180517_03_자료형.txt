@@ -1,0 +1,45 @@
+ + 자료형, Data Type
+
+  - 기본타입, Primitive Data Type
+	8개
+	Java에서 데이터를 인식하는 기본 타입
+
+  - 참조형타입, Reference Data Type
+	기본타입외 모든 타입
+
+
+
+ + 기본형 타입 8가지
+  - 정수형
+	byte	1B
+	short	2B
+	int	4B
+	long	8B
+
+  - 실수형
+	float	4B
+	double	8B
+
+  - 논리형
+	boolean	1B	true/false
+
+  - 문자형
+	char	2B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

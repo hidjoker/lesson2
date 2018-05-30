@@ -1,0 +1,40 @@
+ + 새로운 클래스 작성
+	- 기능 : 사칙연산 계산기
+ 	- 메소드 4개
+		sum, sub, mul, div
+	- 매개변수 : 정수 2개
+	- return : 정수 (div는 double)
+
+ + 새로운 클래스 작성
+	- 기능 : 사칙연산 계산기를 실행시키는 실행클래스
+	 	정수 2개와 연산자 1개를 입력받고
+		switch로 구분하여 계산기 클래스를 이용한
+		연산결과를 출력
+
+ ex)	switch(op) {
+	case '+':
+	  System.out.println(n1 + "+" + n2 + "=" + c.sum(n1, n2) );
+	  break;
+
+ ** char 입력 받기
+	String input = sc.nextLine();
+	char alpha = input.charAt(0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

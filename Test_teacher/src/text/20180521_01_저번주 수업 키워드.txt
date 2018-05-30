@@ -1,0 +1,34 @@
+
+ + Scanner
+  - nextXXX()
+
+ + 형변환(Datatype Casting)
+  - 강제형변환
+  - 자동형변환
+
+ + System.out.println();
+ + System.out.print();
+
+ + 데이터타입
+  - 기본형 ( int, char, double, boolean )
+	byte	1
+	short	2
+	int	4
+	long	8
+
+	float	4
+	double	8
+
+	boolean	1
+
+	char	2
+
+  - 참조형
+	기본형이외 모든 데이터 타입
+	**특징 : 첫 글자가 대문자
+
+ + API Documentation
+	import
+
+ + 메인함수
+	public static void main(String[] args) { }
