@@ -27,7 +27,7 @@ public class Array2DEx_05 {
 		Scanner sc = new Scanner(System.in);
 		
 		for(int i=0 ; i <arr.length ; i++) {
-			System.out.println("Input size : ");
+			System.out.print("Input size : ");
 			int len = sc.nextInt();
 			
 			arr[i] = new int[len];

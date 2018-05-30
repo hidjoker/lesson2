@@ -8,7 +8,7 @@ public class Array2DEx_04 {
 		
 		int[][] arr = new int[3][];
 		
-		arr[0][0] = 123;
+		//arr[0][0] = 123;
 		
 		
 		// 가변배열 //

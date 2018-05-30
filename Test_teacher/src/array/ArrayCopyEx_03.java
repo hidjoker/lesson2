@@ -12,7 +12,7 @@ public class ArrayCopyEx_03 {
 		
 		// 1. Destination에 공간 확보
 		//	  new 사용해서 새로운 공간할당
-//		arr2 = new int[3];
+        // arr2 = new int[3];
 		arr2 = new int[arr1.length];
 		
 		// 2. System 클래스의 API메소드를 이용해서 내용물 복사

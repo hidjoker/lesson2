@@ -38,17 +38,7 @@ public class IfElseIfElseEx {
 		}
 		
 	}
+	
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
