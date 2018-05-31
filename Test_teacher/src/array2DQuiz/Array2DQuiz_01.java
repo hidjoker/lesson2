@@ -23,6 +23,3 @@ public class Array2DQuiz_01 {
 }
 
 
-
-
-
