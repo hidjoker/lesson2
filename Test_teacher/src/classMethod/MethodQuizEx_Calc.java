@@ -1,6 +1,8 @@
-package classMethodQuiz;
+package classMethod;
 
 import java.util.Scanner;
+
+import classBasic.Calculator;
 
 public class MethodQuizEx_Calc {
 	public static void main(String[] args) {

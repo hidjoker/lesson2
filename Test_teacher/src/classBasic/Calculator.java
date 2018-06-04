@@ -1,4 +1,4 @@
-package classMethodQuiz;
+package classBasic;
 
 public class Calculator {
 //	- 기능 : 사칙연산 계산기

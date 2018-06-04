@@ -1,4 +1,4 @@
-package classMethod;
+package classBasic;
 
 public class Method_03 {
 
