@@ -1,0 +1,9 @@
+
+ + JAVA API(Application Programming Interface)
+
+  **API : 응용 프로그램이 OS나 기타 시스템과 상호작용(통신)을
+	할 때 사용되는 메시지 형식(메소드)
+	(자바에서는 Class로 제공된다)
+
+  - 응용프로그램을 개발하기 위해 프로그래밍 언어에서 제공하는
+   클래스
