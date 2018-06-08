@@ -1,0 +1,29 @@
+
+ + Wrapper 클래스
+
+  - 기본 데이터타입을 포장하고있는 클래스
+
+  - 기본데이터타입을 객체화하여 사용할 수 있게 해주는 클래스
+
+	boolean	- Boolean
+	char	- Charater
+	byte	- Byte
+	short	- Short
+	int	- Integer
+	long	- Long
+	float	- Float
+	double	- Double
+
+
+ - 박싱, Boxing
+	기본데이터타입 -> Wrapper클래스 변환
+
+ - 언박싱, Unboxing
+	Wrapper클래스 -> 기본데이터타입 변환
+
+ - 오토 박싱, 오토 언박싱
+	 기본데이터타입과 Wrapper클래스 간의 박싱, 언박싱이
+	자동으로 이루어지는 현상
+
+	기본데이터타입과 Wrapper를 크게 구분하지않고 사용가능
+	(연산, 대입, 출력 등등)

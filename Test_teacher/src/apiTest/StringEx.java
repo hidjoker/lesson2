@@ -2,7 +2,6 @@ package apiTest;
 
 public class StringEx {
 	public static void main(String[] args) {
-		
 		String str = "Hello Java";
 		// String str = new String("Hello Java");
 		
