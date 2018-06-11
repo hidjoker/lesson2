@@ -1,0 +1,32 @@
+
+ + 스택, Stack
+  - LIFO(후입선출), FILO
+
+  - class 타입이다
+
+  - 주요 메소드
+	push() : 스택에 객체 추가
+
+	pop() : 스택에서 객체 반환 및 제거
+
+	peek() : 다음 차례에 pop()할 객체 반환 (제거하지않음)
+
+  - 메소드 Call Stack으로 사용되는 알고리즘
+
+
+
+ + 큐, Queue
+  - FIFO(선입선출), LILO
+
+  - interface로 되어있음
+  - class LinkedList 를 이용하면 된다
+
+	ex) Queue q = new LinkedList();
+
+  - 주요 메소드
+
+	offer() : 큐에 객체 추가 ( enqueue, 인큐 )
+
+	poll() : 큐에서 객체 반환 및 제거 ( dequeue, 데크 )
+
+	peek() : 큐에서 객체 반환( 제거 X )

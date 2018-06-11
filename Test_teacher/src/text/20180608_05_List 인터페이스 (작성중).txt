@@ -21,9 +21,14 @@
 	배열과 달리 공간 확장 가능
 
 	다른 List에 비해 빠른 편
+	
+	단방향 포인터
 
 
   - class LinkedList
+  
+         양방향 포인터
+
 
 
   - class Vector
