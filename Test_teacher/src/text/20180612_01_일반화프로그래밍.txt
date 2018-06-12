@@ -1,0 +1,25 @@
+
+ + 일반화프로그래밍
+  - 자료형을 일반화(Generalization)하여 프로그래밍하는 것
+
+  - 자바에서는 제네릭을 통해 구현된다
+
+	int
+	float	==일반화==> 데이터타입 T
+	double
+	String
+
+
+  - ex)
+	public void out(Sting var) { }
+	public void out(Integer var) { }
+
+
+	=> public <T> void out(T var) { }
+
+	=> String str="Hello";
+	=> out(str); // out이 호출되면서 T가 String으로 결정된다
+
+
+	=> int num = 100;
+	=> out(num); // T가 Integer로 결정됨
