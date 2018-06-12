@@ -1,0 +1,57 @@
+
+ + 타입 가변성, Datatype Variant
+
+  - 타입 파라미터 : 제네릭으로 설정된 매개변수, 리턴타입
+
+  - 타입 파라미터가 클래스 계층구조에 미치는 영향
+   (클래스 계층구조 : 컴파일러가 인식하는 데이터타입체계)
+
+
+  - 타입 가변성 종류
+
+	Parent : 부모클래스
+	Child : 자식클래스
+
+   1. 공변성(covariant)
+	Child가 Parent의 서브타입이라면
+	Data<Child>는 Data<Parent>의 서브타입이다
+
+   2. 반공변성(contravariant)
+	Child가 Parent의 서브타입이라면
+	Data<Parent>는 Data<Child>의 서브타입이다
+
+   3. 무변성(invariant)
+	Data<Child> 와 Data<Parent> 는 무관하다
+
+
+ + 자바에서의 타입 가변성
+
+  1. 공변성
+
+	Child가 Parent의 서브클래스라면
+
+	Data<Child>는 Data<? extends Parent>의 서브타입이다
+
+
+	ex)
+		void display(List<? extends Number> list) { 
+
+		}
+
+		display(new List<Integer>);
+
+  2. 반공변성
+	Child가 Parent의 서브클래스라면
+
+	Data<Parent>는 Data<? super Child>의 서브타입이다
+
+	ex)
+		void display(List<? super Integer> list) {
+		}
+
+		display(new List<Number>);
+
+  3. 무변성
+	Data<Parent> 와 Data<Child>는 무관하다
+
+	자바의 기본 가변성

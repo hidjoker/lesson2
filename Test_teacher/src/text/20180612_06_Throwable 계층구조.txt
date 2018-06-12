@@ -1,0 +1,42 @@
+
+ + Throwable 클래스 계층구조
+
+Object
+  |
+Throwable
+  |----------------|
+  |		   |
+Error		Exception
+[Critical Err]	   |------------------------|
+		   |			    |
+		여러Exception		RuntimeException
+		[Checked Exception]	[Unchecked Exception]
+
+
+ + Critical Error
+  - 심각한 복구불가 에러
+
+
+ + Checked Exception
+  - RuntimeException의 자식클래스를 제외한
+   Exception의 자식클래스
+
+  - 반드시 예외처리해야하는 예외
+
+  - Compile-time에 예외처리코드가 없으면 문법에러가 난다
+
+  - 코드 작성단계에서 미리 체크해서 예외처리한다
+
+  ex) IOException, SQLException, ...
+
+
+ + Unchecked Exception
+  - RuntimeException의 자식클래스
+
+  - 반드시 처리하지않아도 되는 예외
+
+  - 실행도중에 발견하게 됨
+
+  - 실행 이후 발견되면 예외처리코드를 추가하면서 개발한다
+
+  ex) NullPointerException, IndexOutOfBoundsException, ....
