@@ -1,0 +1,16 @@
+
+ + InputStream의 주요 메소드
+
+  - int read() throws IOException
+	입력스트림에서 1B를 읽어들인다
+	읽은 데이터의 ASCii를 int형으로 반환
+
+  - int read(byte[] b) throws IOException
+	입력스트림에서 b 배열의 최대 크기만큼 읽어들인다
+	읽은 데이터를 b배열의 처음부터 기록한다
+	읽은 데이터의 길이를 int형으로 반환한다
+
+  - int read(byte[] b, int off, int len) throws IOException
+	입력스트림에서 len만큼 읽어들인다
+	읽은 데이터를 b배열의 off 인덱스부터 기록한다
+	읽은 데이터의 길이를 int형으로 반환한다
