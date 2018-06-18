@@ -17,7 +17,7 @@ public class OuterEx {
 		System.out.println("---------");
 		
 		o.out();
-		
+
 	}
 }
 
