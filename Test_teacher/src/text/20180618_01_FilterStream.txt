@@ -1,0 +1,50 @@
+
+ + 보조스트림, FilterStream
+
+  - 1차스트림을 보조하는 역할
+  (**1차스트림 : 입출력장치와 직접 입출력작업이 가능한 스트림)
+
+  - 생성자의 접근제한자가 protected -> 객체생성 불가
+  - FilterStream의 자식클래스들에 구현되어있는 기능을
+   사용할 수 있다
+
+
+ + BufferedStream
+  - 스트림내부에 버퍼를 가지고 있는 보조스트림
+
+  - 입출력 횟수를 줄여서 성능 향상을 유도함
+
+
+ + DataStream
+  - 자바 기본자료형 데이터를 유지하면서 입출력하는 기능을 제공
+
+
+ + ObjectStream
+
+  - 객체 단위로 입출력할 수 있도록 기능을 제공하는 스트림
+
+  - DataInput/DataOutput Interface를 구현하고 있다
+	-> DataInputStream/DataOutputStream의 메소드를
+	  모두 다 가지고 있다
+
+	-> DataStream이 할 수 있는 일을 모두 할 수 있다
+
+  - readObject(), writeObject()를 사용하여 객체형태로 입출력
+
+  - Collection도 객체형태 유지하면서 입출력함
+
+
+  - 직렬화, Serialization
+	 크기가 큰 데이터를 스트림을 통과시키기위해
+	바이트단위로 쪼개는 것
+
+	void ObjectOutputStream.writeObject(Object obj);
+
+  - 역직렬화, Deserialization
+	 바이트단위로 쪼개져 스트림을 통과한 데이터를
+	원본형식으로 합치는 것
+
+	Object ObjectInputStream.readObject();
+
+  - 스트림을 통과하는 객체는 직렬화가능클래스로 생성해야한다
+	-> implements Serializable 적용된 클래스만 직렬화 가능
