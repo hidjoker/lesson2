@@ -1,0 +1,24 @@
+
+ + 소켓, Socket
+  - TCP/IP를 이용하는 통신용 API
+
+  - SW적인 가상 장치( 통신 접속지점 )
+
+  - 자바에서는 클래스로 구현되어있음
+
+  - 소켓 스트림
+	-> 내부에 입출력 스트림을 포함하고 있음
+
+
+ + 소켓 통신
+  - 소켓을 이용한 통신
+
+  - 소켓 프로그래밍
+
+  - 클라이언트 소켓 : Socket class, DatagramPacket class
+  - 서버소켓 : ServerSocket class, DatagramSocket class
+
+  - CS 간의 소켓을 이용한 통신
+
+ + TCP 프로그래밍
+ + 네트워크 프로그래밍
