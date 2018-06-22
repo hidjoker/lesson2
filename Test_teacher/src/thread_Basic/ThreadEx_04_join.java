@@ -2,11 +2,11 @@ package thread_Basic;
 
 import java.util.Random;
 
-public class ThreadEx_03 extends Thread {
+public class ThreadEx_04_join extends Thread {
 	
 	private int idx; //스레드 인덱스
 	
-	public ThreadEx_03(int i) {	idx=i; }
+	public ThreadEx_04_join(int i) {	idx=i; }
 	
 	@Override
 	public void run() {
@@ -22,15 +22,29 @@ public class ThreadEx_03 extends Thread {
 	
 	public static void main(String[] args) {
 		System.out.println("Main 스레드 시작");
+
+		ThreadEx_04_join t1 = new ThreadEx_04_join(1);
+		ThreadEx_04_join t2 = new ThreadEx_04_join(2);
+		ThreadEx_04_join t3 = new ThreadEx_04_join(3);
 		
-		for(int i=0; i<10; i++) {
-			new ThreadEx_03(i).start();
+		t1.start();
+		t2.start();
+		t3.start();
+		
+		try {
+			// 다른 스레드의 종료 기다리기
+			t1.join();
+			t2.join();
+			t3.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
 		}
 		
 		System.out.println("Main 스레드 종료");
 	}
 	
 }
+
 
 
 
