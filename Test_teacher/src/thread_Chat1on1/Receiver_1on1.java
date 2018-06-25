@@ -34,7 +34,7 @@ public class Receiver_1on1 extends Thread {
 			//--- 실제 통신 ---
 			while(true) {
 				String msg = reader.readLine();
-				
+				System.out.println(msg);
 				if( msg == null ) {
 					System.out.println("상대방 연결이 끊김");
 					break;
