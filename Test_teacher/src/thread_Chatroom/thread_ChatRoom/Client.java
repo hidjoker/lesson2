@@ -1,4 +1,4 @@
-package thread_ChatRoom;
+package thread_Chatroom.thread_ChatRoom;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -84,7 +84,7 @@ public class Client {
 					String msg;
 					msg = reader.readLine();
 
-					if("exit".equals(msg)) {	break; }
+					if(msg.equals("EXIT")) break; 
 					
 					writer.println(msg);
 					writer.flush();

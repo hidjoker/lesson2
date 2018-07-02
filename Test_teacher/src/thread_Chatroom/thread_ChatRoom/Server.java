@@ -1,4 +1,4 @@
-package thread_ChatRoom;
+package thread_Chatroom.thread_ChatRoom;
 
 import java.io.BufferedReader;
 import java.io.IOException;
